@@ -102,18 +102,18 @@
 # print(continent_counter(world, 5, 5))
 
 # Random Continent generator
-import random
+# import random
 
-water = "o"
-land = "M"
-random_values = [water, land]
+# water = "o"
+# land = "M"
+# random_values = [water, land]
 
-def random_continent(n):
-	my_continent = []
-	for i in range(n):
-		my_continent = [[random.choice(random_values) for i in range(n)] for j in range(n)]
-	print("my_continent = ", my_continent)
-random_continent(12)
+# def random_continent(n):
+# 	my_continent = []
+# 	for i in range(n):
+# 		my_continent = [[random.choice(random_values) for i in range(n)] for j in range(n)]
+# 	print("my_continent = ", my_continent)
+# random_continent(12)
 
 
 
@@ -204,3 +204,21 @@ random_continent(12)
 
 
 # s1.my_print()
+
+# class Student():
+# 	def __init__(self, first_name, last_name, tel_no, email, github_name, city, country, gender, coding_level,
+# 		techno_skills, studies, background, employment_status, aim):
+# 		self.first_name = first_name
+# 		self.last_name = last_name
+# 		self.tel_no = tel_no
+# 		self.email = email
+# 		self.github_name = github_name
+# 		self.city = city
+#		self.country = country
+# 		self.gender = gender
+# 		self.coding_level = coding_level
+# 		self.techno_skills = techno_skills
+# 		self.studies = studies
+# 		self.background = background
+# 		self.employment_status = employment_status
+# 		self.aim = aim
